@@ -1,0 +1,47 @@
+:root {
+    --main-bg-color: #f1eedc;
+    --clip-path-color: #172f17;
+    --global-font-family: 'Comfortaa', sans-serif;
+    --global-header-font-family: serif;
+    --main-text-color: #C1AC8F;
+}
+
+
+body {
+
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-bg-color);
+}
+
+
+.window {
+    min-height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.mainTitle {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: var(--global-font-family);
+    color: var(--main-text-color);
+}
+
+.clipPath {
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: var(--clip-path-color);
+    position: absolute;
+}
+
+.sales {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: var(--global-font-family);
+    color: var(--main-text-color);
+    text-decoration: var(--main-text-color);
+}

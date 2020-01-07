@@ -1,47 +1,96 @@
 :root {
-    --main-bg-color: #f1eedc;
-    --clip-path-color: #172f17;
-    --global-font-family: 'Comfortaa', sans-serif;
-    --global-header-font-family: serif;
-    --main-text-color: #C1AC8F;
+  --main-bg-color: #f1eedc;
+  --clip-path-color: #172f17;
+  --global-font-family: "Comfortaa", sans-serif;
+  --global-header-font-family: serif;
+  --main-text-color: #c1ac8f;
 }
-
 
 body {
-
-    padding: 0;
-    margin: 0;
-    background-color: var(--main-bg-color);
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-bg-color);
+  font-family: "Comfortaa", sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  width: 50%;
+  margin: 0, 10px;
+}
+
+.navbar li {
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+  z-index: 1;
+}
+
+a {
+  color: var(--main-text-color);
+  padding: 7.5px;
+  transition-duration: 0.35s;
+  border-radius: 6px;
+}
+
+a:hover {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
 
 .window {
-    min-height: 100%;
-    width: 100%;
-    margin: auto;
+  min-height: 100%;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
 }
 
 .mainTitle {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    font-family: var(--global-font-family);
-    color: var(--main-text-color);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  z-index: 1;
+}
+
+.cards {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  z-index: 1;
+}
+
+.card {
+  width: 250px;
+  height: 450px;
+  background: #f1eedc;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  z-index: 1;
 }
 
 .clipPath {
-    height: 100%;
-    width: 100%;
-    clip-path: polygon(100% 0, 0 0, 100% 100%);
-    background-color: var(--clip-path-color);
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  background-color: var(--clip-path-color);
+  position: absolute;
 }
 
 .sales {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    font-family: var(--global-font-family);
-    color: var(--main-text-color);
-    text-decoration: var(--main-text-color);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  text-decoration: var(--main-text-color);
+  z-index: 1;
 }

@@ -59,6 +59,24 @@ a:hover {
   z-index: 1;
 }
 
+.mainHeader {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  z-index: 1;
+}
+
+.mainParagraph {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: var(--global-font-family);
+  color: var(--main-text-color);
+  z-index: 1;
+}
+
 .cards {
   margin: auto;
   display: flex;

@@ -84,15 +84,24 @@ a:hover {
   font-family: var(--global-font-family);
   color: var(--main-text-color);
   z-index: 1;
+  background: var(--main-bg-color);
 }
 
 .card {
+  padding: 25px;
   width: 250px;
   height: 450px;
   background: #f1eedc;
   font-family: var(--global-font-family);
   color: var(--main-text-color);
   z-index: 1;
+  border-radius: 5px;
+  border: solid 2px #172f17;
+  transition-duration: 0.35s;
+}
+
+.card:hover {
+  background-color: white;
 }
 
 .clipPath {

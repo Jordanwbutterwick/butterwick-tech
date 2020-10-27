@@ -1,0 +1,19 @@
+body {
+  font-family: "Halant", sans-serif;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  margin-top: 20vh;
+  margin-left: 30%;
+}
+
+footer {
+  margin-top: 40vh;
+  margin-left: 40%;
+}

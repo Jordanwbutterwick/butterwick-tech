@@ -1,8 +1,0 @@
-{
-  "name": "ButterwickTech",
-  "version": 2,
-  "builds": [{
-    "use": "@now/static"
-  }],
-  "alias": ["butterwick.tech", "www.butterwick.tech"]
-}

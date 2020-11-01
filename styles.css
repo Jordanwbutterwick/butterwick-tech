@@ -1,8 +1,9 @@
 body {
-  font-family: "Halant", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
-p {
+p,
+a {
   font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -16,4 +17,17 @@ p {
 footer {
   margin-top: 40vh;
   margin-left: 40%;
+}
+
+ul {
+  list-style: none;
+}
+
+.projects {
+  color: #353535;
+  text-decoration: none;
+}
+
+.projects :hover {
+  color: #0070f3;
 }

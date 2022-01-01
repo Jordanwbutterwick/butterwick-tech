@@ -11,12 +11,12 @@ a {
 
 .container {
   margin-top: 20vh;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 footer {
   margin-top: 40vh;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 ul {
@@ -30,4 +30,34 @@ ul {
 
 .projects :hover {
   color: #0070f3;
+}
+
+i {
+  color: rgb(252, 249, 250);
+}
+
+/* icons social media */
+
+.social {
+  position: relative;
+  top: -90%;
+}
+
+.fa-github:hover {
+  color: rgb(111, 114, 114);
+}
+.fa-envelope:hover {
+  color: rgb(111, 114, 114);
+}
+.fa-linkedin:hover {
+  color: rgb(111, 114, 114);
+}
+.fa-codepen:hover {
+  color: rgb(111, 114, 114);
+}
+.fa-medium:hover {
+  color: rgb(111, 114, 114);
+}
+.fa-twitter:hover {
+  color: rgb(111, 114, 114);
 }

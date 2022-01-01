@@ -33,9 +33,11 @@ ul {
 }
 
 i {
-  color: rgb(252, 249, 250);
+  color: #353535;
 }
-
+i:hover {
+  color: #0070f3;
+}
 /* icons social media */
 
 .social {
@@ -43,21 +45,3 @@ i {
   top: -90%;
 }
 
-.fa-github:hover {
-  color: rgb(111, 114, 114);
-}
-.fa-envelope:hover {
-  color: rgb(111, 114, 114);
-}
-.fa-linkedin:hover {
-  color: rgb(111, 114, 114);
-}
-.fa-codepen:hover {
-  color: rgb(111, 114, 114);
-}
-.fa-medium:hover {
-  color: rgb(111, 114, 114);
-}
-.fa-twitter:hover {
-  color: rgb(111, 114, 114);
-}

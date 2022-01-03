@@ -54,12 +54,9 @@ ul {
   display: none;   
 }
 .content {
-  position: absolute;
+  position: relative;
   top: 28px;
-  left: 0;
   background: white;
-  right: 0;
-  bottom: 0;
   padding: 20px;
   border: 1px solid #eee; 
 }

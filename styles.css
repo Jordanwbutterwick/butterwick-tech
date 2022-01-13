@@ -23,8 +23,9 @@ a {
   transition: transform 325ms ease-in;
 }
 
-.skip-nav-link {
+.skip-nav-link:focus {
   transform: translateY(0)
+
 }
 
 

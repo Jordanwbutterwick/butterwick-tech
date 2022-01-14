@@ -6,9 +6,14 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,h2,h3,h4,h5,li,a,p,label {
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
+}
+
 p,
 a {
-  font-family: "Noto Sans", sans-serif;
+
   font-size: 20px;
   font-weight: 400;
 }

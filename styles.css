@@ -92,6 +92,24 @@ a :hover {
   padding: 15px;
   border: 1px solid #eee; 
 }
+
+.navbar{
+  width: auto;
+  display:flex;
+  justify-content: center;
+}
+
+.navlink{
+  margin-right: 30px;
+  padding: 7px 10px 7px 10px;
+
+}
+
+.navlink:hover {
+  box-shadow: 1px 1px 1px 1px #919191;
+
+}
+
 [type=radio]:checked ~ label {
   background: white;
   border-bottom: 1px solid white;

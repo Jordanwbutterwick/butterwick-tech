@@ -1,5 +1,6 @@
 body {
   font-family: "Noto Sans", sans-serif;
+  background-color: #242424;
 }
 
 html {
@@ -7,7 +8,7 @@ html {
 }
 
 h1,h2,h3,h4,h5,li,a,p,label {
-  color: #353535;
+  color: #d6d6d6;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -28,31 +29,31 @@ ul {
 }
 
 a {
-  color: #353535;
+  color: #d6d6d6;
   text-decoration: none;
 }
 
 li :hover {
-  color: #0070f3;
+  color: #65adff;
 }
 
 a :hover {
-  color: #0070f3;
+  color: #65adff;
 }
 .skip-nav-link {
   position:absolute;
   transform: translateY(-320%);
   padding:.5rem 1.5rem;
   border-radius: 0 0 0.25rem 0.25rem;
-  border:solid #353535 2px;
-  background:#919191;
+  border:solid #d6d6d6 2px;
+  background:#202020;
   left:.5rem;
   transition: transform 325ms ease-in;
 }
 
 .skip-nav-link:focus {
   transform: translateY(-200%);
-  color: #353535;
+  color: #d6d6d6;
 }
 
 .container {
@@ -71,9 +72,9 @@ a :hover {
   float: left;
 }
 .tab label {
-  background: #fff; 
+  background: #242424; 
   padding: 10px; 
-  border: 1px solid #eee; 
+  border: 1px solid #242424; 
   border-radius: 2px;
   margin-left: -1px; 
   position: relative;
@@ -86,11 +87,11 @@ a :hover {
   position: absolute;
   top: 28px;
   left: 0;
-  background: white;
+  background: 242424;
   right: 0;
   bottom: auto;
   padding: 15px;
-  border: 1px solid #eee; 
+  border: 1px solid #242424; 
 }
 
 .navbar{
@@ -111,8 +112,8 @@ a :hover {
 }
 
 [type=radio]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid white;
+  background: #242424;
+  border-bottom: 1px solid #242424;
   z-index: 2;
 }
 [type=radio]:checked ~ label ~ .content {
@@ -120,15 +121,15 @@ a :hover {
 }
 
 label:hover {
-  color: #0070f3;
+  color: #65adff;
   cursor: pointer;
 }
 
 i {
-  color: #353535;
+  color: #d6d6d6;
 }
 i:hover {
-  color: #0070f3;
+  color: #65adff;
 }
 /* icons social media */
 

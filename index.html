@@ -51,15 +51,31 @@
         </p>
         <p>Check out my <a href="https://github.com/jbutterwick" target="_blank">GitHub profile</a></p>
         <br />
-        <p>Hotline webring:</p>
-        <a href="https://hotlinewebring.club/butterwick-tech/last">prev</a>
-        <a href="https://hotlinewebring.club/butterwick-tech/next">next</a>
-        <p>Retronauts webring:</p>
-        <a href='https://webring.dinhe.net/prev/https://butterwick.tech'>prev</a>
-        <a href='https://webring.dinhe.net/next/https://butterwick.tech'>next</a>
-        <br />
-        <br />
-        <br />
+        <button type="button" class="collapser">Webrings</button>
+        <div class="webrings-container">
+          <p>Hotline webring:</p>
+          <a href="https://hotlinewebring.club/butterwick-tech/last">prev</a>
+          <a href="https://hotlinewebring.club/butterwick-tech/next">next</a>
+          <p>Retronauts webring:</p>
+          <a href='https://webring.dinhe.net/prev/https://butterwick.tech'>prev</a>
+          <a href='https://webring.dinhe.net/next/https://butterwick.tech'>next</a>
+        </div>
+        <script>
+          var coll = document.getElementsByClassName("collapser");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var container = this.nextElementSibling;
+              if (container.style.maxHeight){
+                container.style.maxHeight = null;
+              } else {
+                container.style.maxHeight = container.scrollHeight + "px";
+              } 
+            });
+          }
+          </script>
 
         <p>
           my list of cool online stuff

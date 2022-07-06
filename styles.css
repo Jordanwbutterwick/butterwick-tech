@@ -17,19 +17,19 @@ p,a {
 
 h3,h4,h5,li,p,label {
   color: #DEF1E5; /*all conventional thinking*/
-  font-family: noto-sans, sans-serif;
+  font-family: "noto-sans", sans-serif;
 }
 
 h1 {
   font-size: 80px;
   color: #EFFEC7; /*like pure FP*/
-  font-family: noto-sans, sans-serif;
+  font-family: "noto-sans", sans-serif;
 }
 
 h2 {
   font-size: 35px;
   color: #EFFEC7; /*like pure FP*/
-  font-family: noto-sans, sans-serif;
+  font-family: "noto-sans", sans-serif;
 }
 
 a {

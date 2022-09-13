@@ -112,15 +112,30 @@ ul {
   width: auto;
   display:flex;
   justify-content: center;
+  padding-top:15px;
 }
 
 .navlink{
   margin-right: 30px;
-  padding: 7px 10px 7px 10px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 70px;
+  background: #071715;
+  box-shadow:  10px 10px 10px #030908,
+              -10px -10px 10px #0b2522;
 }
 
-.navlink:hover {
-  box-shadow: 1px 1px 1px 1px #919191;
+.navlink:hover, .navlink:focus {
+  border-radius: 70px;
+  background: linear-gradient(145deg, #030908, #0b2522);
+  box-shadow:  10px 10px 26px #030908,
+               -10px -10px 26px #0b2522;
+}
+
+.navlink:active {
+  border-radius: 70px;
+  background: #071715;
+  box-shadow: inset 10px 10px 26px #030908,
+              inset -10px -10px 26px #0b2522;
 }
 
 label:hover {

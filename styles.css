@@ -138,6 +138,16 @@ ul {
               inset -10px -10px 26px #0b2522;
 }
 
+.card {
+  opacity: 1;
+  animation: fade 2s linear;
+}
+
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+
 label:hover {
   color: #B00B1E;
   cursor: pointer;

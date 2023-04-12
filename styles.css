@@ -3,6 +3,17 @@
 body {
   font-family: "noto-sans", sans-serif;
   background-color: #071715;
+  
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #071715;
+  background: #EFFEC7;
+}
+
+::selection {
+  color: #071715;
+  background: #EFFEC7;
 }
 
 html {

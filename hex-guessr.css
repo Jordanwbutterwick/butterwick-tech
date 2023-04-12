@@ -1,0 +1,136 @@
+@import url(https://fonts.bunny.net/css?family=fira-mono:400|noto-sans:400|raleway:500|rokkitt:500);
+
+body {
+  font-family: "noto-sans", sans-serif;
+  background: #dde1e7;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #dde1e7;
+    background: #323232;
+  }
+  
+  ::selection {
+    color: #dde1e7;
+    background: #323232;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;  
+}
+a {
+    font-family: "fira-mono", sans-serif;
+    color: #323232;
+    text-decoration: none;
+}
+h4,
+h5,
+li,
+p,
+label {
+  color: #323232;
+  /*all conventional thinking*/
+  font-family: "noto-sans", sans-serif;
+}
+
+p,
+a {
+   font-size: 20px;
+   font-weight: 400;
+   font-family: "fira-mono";
+}
+
+.content{
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12.5vw 0 0 -12.5vh;
+    background: #dde1e7;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: -3px -3px 7px #f8f8f8,
+                10px 10px 26px rgba(94, 104, 121, 0.288);
+}
+
+.navbar {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 35px;
+  }
+
+  
+.navlink {
+    margin-right: 30px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 70px;
+    background: #f8f8f8;
+    box-shadow: 10px 10px 26px #babecc,
+      -10px -10px 26px #f8f8f8;
+  }
+.navlink:hover,
+.navlink:focus {
+  background: linear-gradient(145deg, #babecc, #f8f8f8);
+}
+
+.navlink:active {
+  box-shadow: inset 10px 10px 26px #babecc,
+    inset -10px -10px 26px #f8f8f8;
+}
+
+.content .field{
+height: 50px;
+width: 100%;
+display: flex;
+position: relative;
+}
+
+.field input{
+height: 100%;
+width: 100%;
+padding-left: 45px;
+font-size: 18px;
+outline: none;
+border: none;
+color: #595959;
+background: #dde1e7;
+border-radius: 25px;
+box-shadow: inset 10px 10px 26px #babecc,
+            inset -10px -10px 26px #f8f8f8;
+}
+
+.submitbutton{
+margin: 25px 0 0 0;
+width: 100%;
+height: 50px;
+color: #000;
+font-size: 18px;
+font-weight: 600;
+background: #f8f8f8;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 25px;
+box-shadow: 10px 10px 26px #babecc,
+            -10px -10px 26px #f8f8f8;
+}
+
+.submitbutton:hover,
+.submitbutton:focus{
+    color: #313131;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+}
+
+
+.submitbutton:active{
+color: #333333;
+box-shadow: inset 10px 10px 26px #babecc,
+            inset -10px -10px 26px #f8f8f8;
+}

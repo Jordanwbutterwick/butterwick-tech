@@ -1,23 +1,22 @@
-let colorSquare = document.getElementById("colorSquare")
 
-let inputBox = document.getElementById("inputBox")
+window.addEventListener("load", () => {3
 
-let scoreBoard = document.getElementById("scoreBoard")
+    function validateGuess(guess) {
+        var reg=/^#?([0-9a-f]{3}){1,2}$/i;
+        console.log(reg.test(guess));
+    }
 
-let responseBox = document.getElementById("responseBox")
+    function makeGuess() {
+        const formData = new FormData(form);
+        const guess = formData.get("guess");
+        console.log(guess);
 
-let score = 0
-
-function loop(){
-
-    let newColor = Math.floor(Math.random()*16777215).toString(16);
-
-    colorSquare.style.backgroundColor = newColor
-
-    let input = inputBox.value
-}
-
-
-function exit(){
-    responseBox.value = "Goodbye!"
-}
+        validateGuess(guess);
+    }
+    
+    const form = document.getElementById("hexguessr");
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        makeGuess();
+    });
+});

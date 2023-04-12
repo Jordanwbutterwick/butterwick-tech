@@ -5,16 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HexGuessr!</title>
+    <link rel="stylesheet" href="hex-guessr.css" />
     <script src="hexGuessr.js"></script>
 </head>
 <body>
+    <header>
+        <nav>
+          <ul class="navbar">
+            <li>
+              <a class="navlink" href="https://butterwick.tech">my website</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <main id="main-content">
+        <div id="colorBlock">
+            <div class="content">
+                <h1>hex guessr!</h1>
+                <h4>guess the color of this page</h4>
+                <form id="hexguessr">
+                    <div class="field">
+                        <input type="text" id="guess" name="guess" placeholder="your guess">
+                    </div>
+                    <input class="submitbutton" type="submit" value="guess!">
+                </form>
+            </div>
+        </div>
+    </main>
 
-    <div id="colorBlock">
-        <form>
-            <label for="guess">Your guess:</label><br>
-            <input type="text" id="guess" name="guess" value="#363636">
-        </form>
-    </div>
-    
 </body>
 </html>

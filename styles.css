@@ -140,7 +140,6 @@ ul {
   justify-content: center;
   padding-top: 15px;
   margin-top: 35px;
-  ;
 }
 
 .navlink {
@@ -154,14 +153,12 @@ ul {
 
 .navlink:hover,
 .navlink:focus {
-  border-radius: 70px;
   background: linear-gradient(145deg, #030908, #0b2522);
   box-shadow: 10px 10px 26px #030908,
     -10px -10px 26px #0b2522;
 }
 
 .navlink:active {
-  border-radius: 70px;
   background: #071715;
   box-shadow: inset 10px 10px 26px #030908,
     inset -10px -10px 26px #0b2522;

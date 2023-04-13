@@ -3,17 +3,17 @@
 body {
   font-family: "noto-sans", sans-serif;
   background-color: #071715;
-  
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: #071715;
-  background: #EFFEC7;
+  background: #effec7;
 }
 
 ::selection {
   color: #071715;
-  background: #EFFEC7;
+  background: #effec7;
 }
 
 html {
@@ -36,30 +36,29 @@ h5,
 li,
 p,
 label {
-  color: #DEF1E5;
+  color: #def1e5;
   /*all conventional thinking*/
+  font-family: "noto-sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #effec7;
+  /*like pure FP*/
   font-family: "noto-sans", sans-serif;
 }
 
 h1 {
   font-size: 72px;
-  color: #EFFEC7;
-  /*like pure FP*/
-  font-family: "noto-sans", sans-serif;
 }
 
 h2 {
   font-size: 36px;
-  color: #EFFEC7;
-  /*like pure FP*/
-  font-family: "noto-sans", sans-serif;
 }
 
 h3 {
   font-size: 18px;
-  color: #EFFEC7;
-  /*like pure FP*/
-  font-family: "noto-sans", sans-serif;
 }
 
 a {
@@ -68,8 +67,9 @@ a {
   text-decoration: none;
 }
 
+li,
 a:hover {
-  color: #B00B1E;
+  color: #b00b1e;
   /*lol*/
 }
 
@@ -89,16 +89,14 @@ ul {
   padding: 17px 20px 17px 20px;
   border-radius: 70px;
   background: #071715;
-  box-shadow: 10px 10px 26px #030908,
-    -10px -10px 26px #0b2522;
+  box-shadow: 10px 10px 26px #030908, -10px -10px 26px #0b2522;
 }
 
 .active,
 .collapser:hover {
   border-radius: 70px;
   background: linear-gradient(145deg, #030908, #0b2522);
-  box-shadow: 10px 10px 26px #030908,
-    -10px -10px 26px #0b2522;
+  box-shadow: 10px 10px 26px #030908, -10px -10px 26px #0b2522;
 }
 
 .collapsible-container {
@@ -115,17 +113,17 @@ ul {
 .skip-nav-link {
   position: absolute;
   transform: translateY(-320%);
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0 0 0.25rem 0.25rem;
-  border: solid #DEF1E5 2px;
+  border: solid #def1e5 2px;
   background: #202020;
-  left: .5rem;
+  left: 0.5rem;
   transition: transform 325ms ease-in;
 }
 
 .skip-nav-link:focus {
   transform: translateY(-200%);
-  color: #DEF1E5;
+  color: #def1e5;
 }
 
 .container {
@@ -147,21 +145,18 @@ ul {
   padding: 17px 20px 17px 20px;
   border-radius: 70px;
   background: #071715;
-  box-shadow: 10px 10px 26px #030908,
-    -10px -10px 26px #0b2522;
+  box-shadow: 10px 10px 26px #030908, -10px -10px 26px #0b2522;
 }
 
 .navlink:hover,
 .navlink:focus {
   background: linear-gradient(145deg, #030908, #0b2522);
-  box-shadow: 10px 10px 26px #030908,
-    -10px -10px 26px #0b2522;
+  box-shadow: 10px 10px 26px #030908, -10px -10px 26px #0b2522;
 }
 
 .navlink:active {
   background: #071715;
-  box-shadow: inset 10px 10px 26px #030908,
-    inset -10px -10px 26px #0b2522;
+  box-shadow: inset 10px 10px 26px #030908, inset -10px -10px 26px #0b2522;
 }
 
 .seedentry {
@@ -169,8 +164,7 @@ ul {
   padding: 17px 20px 17px 20px;
   border-radius: 20px;
   background: #071715;
-  box-shadow: 10px 10px 26px #030908,
-    -10px -10px 26px #0b2522;
+  box-shadow: 10px 10px 26px #030908, -10px -10px 26px #0b2522;
 }
 
 .seedentry:hover {
@@ -178,16 +172,8 @@ ul {
 }
 
 label:hover {
-  color: #B00B1E;
+  color: #b00b1e;
   cursor: pointer;
-}
-
-i {
-  color: #DEF1E5;
-}
-
-i:hover {
-  color: #B00B1E;
 }
 
 /* icons social media */
@@ -199,7 +185,6 @@ i:hover {
 }
 
 @media screen and (max-width: 800px) {
-
   .left,
   .main,
   .right {

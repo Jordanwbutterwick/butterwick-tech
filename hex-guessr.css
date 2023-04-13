@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=fira-mono:400|noto-sans:400|raleway:500|rokkitt:500);
+@import url(https://fonts.bunny.net/css?family=noto-sans:400|raleway:500|rokkitt:500);
 
 body {
   font-family: "noto-sans", sans-serif;
@@ -23,7 +23,7 @@ ul {
     list-style: none;  
 }
 a {
-    font-family: "fira-mono", sans-serif;
+    font-family: "noto-sans", sans-serif;
     color: #323232;
     text-decoration: none;
 }
@@ -38,10 +38,11 @@ label {
 }
 
 p,
-a {
+a, 
+li {
    font-size: 20px;
    font-weight: 400;
-   font-family: "fira-mono";
+   font-family: "noto-sans";
 }
 
 .content{
@@ -66,18 +67,17 @@ a {
     margin-top: 35px;
   }
 
-  
 .navlink {
     margin-right: 30px;
     padding: 17px 20px 17px 20px;
     border-radius: 70px;
-    background: #f8f8f8;
+    background: linear-gradient(145deg, #ffffff, #dfdfdf);
     box-shadow: 10px 10px 26px #babecc,
       -10px -10px 26px #f8f8f8;
   }
 .navlink:hover,
 .navlink:focus {
-  background: linear-gradient(145deg, #babecc, #f8f8f8);
+  background: #f8f8f8;
 }
 
 .navlink:active {
@@ -113,7 +113,7 @@ height: 50px;
 color: #000;
 font-size: 18px;
 font-weight: 600;
-background: #f8f8f8;
+background: linear-gradient(145deg, #ffffff, #dfdfdf);
 border: none;
 outline: none;
 cursor: pointer;
@@ -125,7 +125,7 @@ box-shadow: 10px 10px 26px #babecc,
 .submitbutton:hover,
 .submitbutton:focus{
     color: #313131;
-    background: linear-gradient(145deg, #ffffff, #dfdfdf);
+    background: #f8f8f8;
 }
 
 

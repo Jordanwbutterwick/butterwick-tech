@@ -5,27 +5,39 @@ body {
   background: #dde1e7;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: #dde1e7;
-    background: #323232;
-  }
-  
-  ::selection {
-    color: #dde1e7;
-    background: #323232;
-  }
+::-moz-selection {
+  /* Code for Firefox */
+  color: #dde1e7;
+  background: #323232;
+}
+
+::selection {
+  color: #dde1e7;
+  background: #323232;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+footer {
+  top: 90%;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 40%;
+}
+
+.social {
+  margin-bottom: 100px;
 }
 
 ul {
-    list-style: none;  
+  list-style: none;
 }
 a {
-    font-family: "noto-sans", sans-serif;
-    color: #323232;
-    text-decoration: none;
+  font-family: "noto-sans", sans-serif;
+  color: #323232;
+  text-decoration: none;
 }
 h4,
 h5,
@@ -38,99 +50,104 @@ label {
 }
 
 p,
-a, 
+a,
 li {
-   font-size: 20px;
-   font-weight: 400;
-   font-family: "noto-sans";
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "noto-sans";
 }
 
-.content{
-    width: 25vw;
-    height: 25vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -12.5vw 0 0 -12.5vh;
-    background: #dde1e7;
-    border-radius: 10px;
-    padding: 40px 30px;
-    box-shadow: -3px -3px 7px #f8f8f8,
-                10px 10px 26px rgba(94, 104, 121, 0.288);
+.content {
+  width: 25vw;
+  height: 25vh;
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  margin: -12.5vw 0 0 -12.5vh;
+  border-radius: 10px;
+  padding: 40px 30px;
+  background: #dde1e7;
+  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+}
+
+.responder {
+  width: 25vw;
+  height: 15vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  padding: 40px 30px;
+  background: #dde1e7;
+  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
 }
 
 .navbar {
-    width: auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 35px;
-  }
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  margin-top: 35px;
+}
 
 .navlink {
-    margin-right: 30px;
-    padding: 17px 20px 17px 20px;
-    border-radius: 70px;
-    background: linear-gradient(145deg, #ffffff, #dfdfdf);
-    box-shadow: 10px 10px 26px #babecc,
-      -10px -10px 26px #f8f8f8;
-  }
+  margin-right: 30px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 70px;
+  background: linear-gradient(145deg, #f8f8f8, #dfdfdf);
+  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+}
 .navlink:hover,
 .navlink:focus {
-  background: #f8f8f8;
+  background: #e3e5e9;
 }
 
 .navlink:active {
-  box-shadow: inset 10px 10px 26px #babecc,
-    inset -10px -10px 26px #f8f8f8;
+  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
 }
 
-.content .field{
-height: 50px;
-width: 100%;
-display: flex;
-position: relative;
+.content .field {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
 }
 
-.field input{
-height: 100%;
-width: 100%;
-padding-left: 45px;
-font-size: 18px;
-outline: none;
-border: none;
-color: #595959;
-background: #dde1e7;
-border-radius: 25px;
-box-shadow: inset 10px 10px 26px #babecc,
-            inset -10px -10px 26px #f8f8f8;
+.field input {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #595959;
+  background: linear-gradient(145deg, #dde1e7, #dfdfdf);
+  border-radius: 25px;
+  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
 }
 
-.submitbutton{
-margin: 25px 0 0 0;
-width: 100%;
-height: 50px;
-color: #000;
-font-size: 18px;
-font-weight: 600;
-background: linear-gradient(145deg, #ffffff, #dfdfdf);
-border: none;
-outline: none;
-cursor: pointer;
-border-radius: 25px;
-box-shadow: 10px 10px 26px #babecc,
-            -10px -10px 26px #f8f8f8;
+.submitbutton {
+  margin: 45px 0 0 0;
+  width: 100%;
+  height: 50px;
+  color: #171717;
+  font-size: 18px;
+  font-weight: 600;
+  background: linear-gradient(145deg, #f8f8f8, #dfdfdf);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
 }
 
 .submitbutton:hover,
-.submitbutton:focus{
-    color: #313131;
-    background: #f8f8f8;
+.submitbutton:focus {
+  color: #171717;
+  background: #e3e5e9;
 }
 
-
-.submitbutton:active{
-color: #333333;
-box-shadow: inset 10px 10px 26px #babecc,
-            inset -10px -10px 26px #f8f8f8;
+.submitbutton:active {
+  color: #171717;
+  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
 }

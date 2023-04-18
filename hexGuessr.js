@@ -32,6 +32,7 @@ function fade(element) {
 window.addEventListener("load", () => {
 
     const color = generateRandomColors();
+    console.log(`randomly chosen color: ${color}`);
 
     const form = document.getElementById("hexguessr");
     const responder = document.getElementById("responder");

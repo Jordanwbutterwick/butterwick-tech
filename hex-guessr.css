@@ -1,19 +1,28 @@
 @import url(https://fonts.bunny.net/css?family=noto-sans:400|raleway:500|rokkitt:500);
 
+:root {
+  --primary: #dde1e7;
+  --text: #171717;
+  --light: #f8f8f8;
+  --medium: #babecc;
+  --off-light: #dfdfdf;
+  --secondary: #e3e5e9;
+}
+
 body {
   font-family: "noto-sans", sans-serif;
-  background: #dde1e7;
+  background: var(--primary);
 }
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: #dde1e7;
-  background: #323232;
+  color: var(--primary);
+  background: var(--text);
 }
 
 ::selection {
-  color: #dde1e7;
-  background: #323232;
+  color: var(--primary);
+  background: var(--text);
 }
 
 html {
@@ -36,7 +45,7 @@ ul {
 }
 a {
   font-family: "noto-sans", sans-serif;
-  color: #323232;
+  color: var(--text);
   text-decoration: none;
 }
 h4,
@@ -44,7 +53,7 @@ h5,
 li,
 p,
 label {
-  color: #323232;
+  color: var(--text);
   /*all conventional thinking*/
   font-family: "noto-sans", sans-serif;
 }
@@ -66,8 +75,8 @@ li {
   margin: -12.5vw 0 0 -12.5vh;
   border-radius: 10px;
   padding: 40px 30px;
-  background: #dde1e7;
-  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+  background: var(--primary);
+  box-shadow: 10px 10px 26px var(--medium), -10px -10px 26px var(--light);
 }
 
 .responder {
@@ -78,8 +87,8 @@ li {
   left: 50%;
   border-radius: 10px;
   padding: 40px 30px;
-  background: #dde1e7;
-  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+  background: var(--primary);
+  box-shadow: 10px 10px 26px var(--medium), -10px -10px 26px var(--light);
 }
 
 .navbar {
@@ -94,16 +103,17 @@ li {
   margin-right: 30px;
   padding: 17px 20px 17px 20px;
   border-radius: 70px;
-  background: linear-gradient(145deg, #f8f8f8, #dfdfdf);
-  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+  background: linear-gradient(145deg, var(--light), var(--off)-light);
+  box-shadow: 10px 10px 26px var(--medium), -10px -10px 26px var(--light);
 }
 .navlink:hover,
 .navlink:focus {
-  background: #e3e5e9;
+  background: var(--secondary);
 }
 
 .navlink:active {
-  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
+  box-shadow: inset 10px 10px 26px var(--medium),
+    inset -10px -10px 26px var(--light);
 }
 
 .content .field {
@@ -120,34 +130,36 @@ li {
   font-size: 18px;
   outline: none;
   border: none;
-  color: #595959;
-  background: linear-gradient(145deg, #dde1e7, #dfdfdf);
+  color: var(--light)-text;
+  background: linear-gradient(145deg, var(--primary), var(--off)-light);
   border-radius: 25px;
-  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
+  box-shadow: inset 10px 10px 26px var(--medium),
+    inset -10px -10px 26px var(--light);
 }
 
 .submitbutton {
   margin: 45px 0 0 0;
   width: 100%;
   height: 50px;
-  color: #171717;
+  color: var(--text);
   font-size: 18px;
   font-weight: 600;
-  background: linear-gradient(145deg, #f8f8f8, #dfdfdf);
+  background: linear-gradient(145deg, var(--light), var(--off)-light);
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 25px;
-  box-shadow: 10px 10px 26px #babecc, -10px -10px 26px #f8f8f8;
+  box-shadow: 10px 10px 26px var(--medium), -10px -10px 26px var(--light);
 }
 
 .submitbutton:hover,
 .submitbutton:focus {
-  color: #171717;
-  background: #e3e5e9;
+  color: var(--text);
+  background: var(--secondary);
 }
 
 .submitbutton:active {
-  color: #171717;
-  box-shadow: inset 10px 10px 26px #babecc, inset -10px -10px 26px #f8f8f8;
+  color: var(--text);
+  box-shadow: inset 10px 10px 26px var(--medium),
+    inset -10px -10px 26px var(--light);
 }

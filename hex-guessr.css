@@ -43,11 +43,13 @@ footer {
 ul {
   list-style: none;
 }
+
 a {
   font-family: "noto-sans", sans-serif;
   color: var(--text);
   text-decoration: none;
 }
+
 h4,
 h5,
 li,
